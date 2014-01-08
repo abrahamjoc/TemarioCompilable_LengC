@@ -5,7 +5,7 @@
  *  
  *  Tema V: Funciones y Procedimientos en Lenguaje C
  * 	
- * 		En la programación iterativa se hace mucho más entendible los
+ *      En la programación iterativa se hace mucho más entendible los
  *  bloques de códigos cuando se programa utilizando la filosofía de divide
  *  y venceras.
  * 
@@ -35,7 +35,7 @@
 	 * 		tipo o void nombre ( argumentos ) ;
 	 **/
 	 
-void estoEsUnProcedimiento(char cad1[255]);
+void estoEsUnProcedimiento(char cad[255]);
 
 int  estoEsUnaFuncion(int num);
 
@@ -76,9 +76,9 @@ int main()
 	 * 		void nombre ( argumentos ) ;
 	 **/
 
-void estoEsUnProcedimiento(char cad1[255])
+void estoEsUnProcedimiento(char cad[255])
 {
-	printf("Soy un procedimiento y imprimo la cadena que me envian, y es %s", cad1);
+	printf("Soy un procedimiento y imprimo la cadena que me envian, y es %s", cad);
 	
 		// notese que este  return  evita que se imprima la cadena de abajo,
 		// porque mando a retornar en esta parte de las instrucciones, muy
