@@ -107,7 +107,7 @@ int main()
 	 * 
 	 *   como Lenguaje C trabaja a medio nivel, existe algo que se llama
 	 *   direccionamiento de memoria, y como parametro se utiliza siempre
-	 *   un '&' (ampersar) más la variable para indicarle al comando donde
+	 *   un '&' (ampersand) más la variable para indicarle al comando donde
 	 *   esta la dirección de esa variable y poder modificar su contenido.
 	 **/
 	 printf("Int. valor entero  : ");   scanf("%i", &entero  );   getchar();
