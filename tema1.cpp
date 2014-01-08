@@ -5,7 +5,7 @@
  *  
  *  Tema I: Introducción al Lenguaje C
  * 
- *      Lenguaje C es unlenguaje de programación de medio nivel, es decir
+ *      Lenguaje C es un lenguaje de programación de medio nivel, es decir
  * trabaja  a nivel de  Sistema Operativo  y  Hardware, fue  creado por 
  * Dennis Ritchie en 1972 como evolución del Lenguaje B de Ken Thompson.
  * 
