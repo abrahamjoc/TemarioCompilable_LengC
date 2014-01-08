@@ -328,15 +328,15 @@ void ServidorTCP(int puerto)
 				strcmp(datosEnviar,"Q") == 0
 			   )
 			{
-				send(conectado, datosEnviar, strlen(datosEnviar), 0); 
-                
-                close(conectado);
-                
-                close(sock);
-                
-                printf("Servidor TCP terminado...\n");
-                
-                exit(1);
+				send(conectado, datosEnviar, strlen(datosEnviar), 0);
+				
+				close(conectado);
+				
+				close(sock);
+				
+				printf("Servidor TCP terminado...\n");
+				
+				exit(1);
 			}
 			
 			else
@@ -352,23 +352,23 @@ void ServidorTCP(int puerto)
 			
 			datosRecibir[bytesRecibidos] = '\0';
 			
-			if ( 
-					strcmp(datosRecibir,"q") == 0 ||
-					strcmp(datosRecibir,"Q") == 0
-				)
+			if (
+				strcmp(datosRecibir,"q") == 0 ||
+				strcmp(datosRecibir,"Q") == 0
+			   )
 			{
 				close(conectado);
 				
 				close(sock);
 				
 				printf("\nServidor TCP terminado...\n");
-                
-                exit(1);
+				
+				exit(1);
 			}
 			
-			else 
-              
-              printf("\nDatos Recibidos  ->  %s\n", datosRecibir);
+			else
+			
+			        printf("\nDatos Recibidos  ->  %s\n", datosRecibir);
 		}
 	}
 }
@@ -423,9 +423,9 @@ void ClienteTCP(char ip[16], int puerto)
 		datosRecibir[bytesRecibidos] = '\0';
 		
 		if (
-				strcmp(datosRecibir,"q") == 0 ||
-				strcmp(datosRecibir,"Q") == 0
-			)
+			strcmp(datosRecibir,"q") == 0 ||
+			strcmp(datosRecibir,"Q") == 0
+		   )
 		{
 			close(sock);
 			
@@ -436,15 +436,15 @@ void ClienteTCP(char ip[16], int puerto)
 		
 		else 
               
-              printf("\nDatos Recibidos  ->  %s\n", datosRecibir);
-        
-        printf("Enviar (q or Q para cerrar) : ");
+                        printf("\nDatos Recibidos  ->  %s\n", datosRecibir);
+              
+                printf("Enviar (q or Q para cerrar) : ");
 		gets(datosEnviar);
 		
 		if (
-				strcmp(datosEnviar,"q") == 0 ||
-				strcmp(datosEnviar,"Q") == 0
-			)
+			strcmp(datosEnviar,"q") == 0 ||
+			strcmp(datosEnviar,"Q") == 0
+		   )
 		{
 			send(sock, datosEnviar, strlen(datosEnviar), 0);
 			
@@ -474,9 +474,9 @@ void ServidorUDP(int puerto)
 	
 	int bytesRecibidos;
 	
-    char datosRecibir[1024];
-    
-    struct sockaddr_in servidor_addr;
+	char datosRecibir[1024];
+	
+	struct sockaddr_in servidor_addr;
 	
 	struct sockaddr_in cliente_addr;
 
