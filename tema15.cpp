@@ -115,34 +115,34 @@
  *  El esquema de conexión de los protocolos quedaría así:
  * 
  *  
- * 		TCP	 __________________     ___________________
- * 			|     Equipo 1     |   |     Equipo 2      |
- * 			'------------------'   '-------------------'
+ *           TCP         __________________     ___________________
+ *                      |     Equipo 1     |   |     Equipo 2      |
+ *                      '------------------'   '-------------------'
  *                      |                  |   |                   |
- * 			|   TCP Envia  ----|-1-|---> TCP Recibe    |
+ *                      |   TCP Envia  ----|-1-|---> TCP Recibe    |
  *                      |                  |   |                   |
- * 			|TCP Recibe Acuse<-|-2-|-- TCP Envia Acuse |
- * 			|__________________|   |___________________|
+ *                      |TCP Recibe Acuse<-|-2-|-- TCP Envia Acuse |
+ *                      |__________________|   |___________________|
  * 
- * 				Nota: Toda acción realizada en TCP, es respondida con un
- *                    acuse, si no llega el acuse entonces se ha perdido
- *                    la conexión.
+ *                 Nota: Toda acción realizada en TCP, es respondida con un
+ *                 acuse, si no llega el acuse entonces se ha perdido
+ *                 la conexión.
  * 
  * 
- * 		UDP	 __________________     ___________________
- * 			|     Equipo 1     |   |     Equipo 2      |
- * 			'------------------'   '-------------------'
+ *           UDP         __________________     ___________________
+ *                      |     Equipo 1     |   |     Equipo 2      |
+ *                      '------------------'   '-------------------'
  *                      |                  |   |                   |
- * 			|   UDP Envia -----|-1-|---> UPD Recibe    |
+ *                      |   UDP Envia -----|-1-|---> UPD Recibe    |
  *                      |                  |   |                   |
- * 			|   UDP Escucha <--|-2-|---- UDP Envia	   |
- * 			|__________________|   |___________________|
+ *                      |   UDP Escucha <--|-2-|---- UDP Envia	   |
+ *                      |__________________|   |___________________|
  * 
- * 				Nota: Toda acción realizada en UDP, se hace sin saber si
- *                    el equipo con el que estamos comunicandonos recibió
- *                    la información satisfactoriamente, eso porque como
- *                    estamos a la escucha recibimos información sin
- *                    responderla.
+ *                 Nota: Toda acción realizada en UDP, se hace sin saber si
+ *                 el equipo con el que estamos comunicandonos recibió
+ *                 la información satisfactoriamente, eso porque como
+ *                 estamos a la escucha recibimos información sin
+ *                 responderla.
  * 
  *  Tópicos:
  *  - servidor TCP/IP
