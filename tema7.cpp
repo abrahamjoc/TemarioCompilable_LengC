@@ -5,7 +5,7 @@
  *  
  *  Tema VII: Manejo de Cadenas <String.h> en Lenguaje C
  * 	
- * 		La programación es una tarea que se realiza para automatizar
+ *      La programación es una tarea que se realiza para automatizar
  *  procesos mediante el diseño e implementación de un algoritmo, durante
  *  ese proceso utilizamos datos que estadísticamentes en algún momento
  *  involucran el uso de palabras, estás se reprensentan como estructuras 
@@ -126,7 +126,7 @@ int main()
 		printf("\n Cadena 1 es MENOR QUE Cadena 2  (C1 < C2)\n");
 		
 		
-// nota: prueba  cad1 = "n"  y  cad2 = "mundo", observa el comportamiento
+        // nota: prueba  cad1 = "n"  y  cad2 = "mundo", observa el comportamiento
 		
 	return 0;
 }
