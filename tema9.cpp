@@ -41,7 +41,7 @@
 	 * 			tipo varibale2;
 	 * 			 ...  ...  ...
 	 * 			tipo variableN;
-	 *        };
+	 *         };
 	 * 
 	 * 
 	 *   Su definición pasa a ser un tipo de dato declarable en cualquier
