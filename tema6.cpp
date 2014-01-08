@@ -5,7 +5,7 @@
  *  
  *  Tema VI: Arreglos (Memoria Estática) en Lenguaje C
  * 	
- * 		Es muy popular escuchar en el mundo de la programación aquello
+ *      Es muy popular escuchar en el mundo de la programación aquello
  *  que conocemos como Vectores y Matrices, términos que no son del todo
  *  erroneos, pero tampoco técnicamente existen dentro de las estructuras
  *  que gestiona el sistema operativo (SO) dentro de la Memoria RAM.
@@ -35,9 +35,9 @@ int main()
 	 *    la cantidad de unidades que tendrá.
 	 * 
 	 *    Estructura:
-	 *    							  // esto es:
-	 * 	  tipo nombre [tam]			  // un vector
-	 * 	  tipo nombre [tam][tam]	  // una matriz
+	 *                                    // esto es:
+	 * 	  tipo nombre [tam]           // un vector
+	 * 	  tipo nombre [tam][tam]      // una matriz
 	 * 	  tipo nombre [tam][tam][tam] // un arreglo de 3 dimensiones
 	 * 	  
 	 * 	  y así sucesivamente tantas dimensiones se necesiten
