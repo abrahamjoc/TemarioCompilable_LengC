@@ -5,11 +5,11 @@
  *  
  *  Tema I: Introducción al Lenguaje C
  * 
- * 	Lenguaje C es lenguaje de programación de medio nivel, es decir
+ *      Lenguaje C es lenguaje de programación de medio nivel, es decir
  * trabaja  a nivel de  Sistema Operativo  y  Hardware, fue  creado por 
  * Dennis Ritchie en 1972 como evolución del Lenguaje B de Ken Thompson.
  * 
- * 	Es sumamente versatil, y es el lenguaje más ampliamente utilizado
+ *      Es sumamente versatil, y es el lenguaje más ampliamente utilizado
  * en el mundo para el desarrollo de proyectos, fue el padre del primer
  * kernel de linux y muchos de sus programas base estan escritos en él.
  * 
@@ -22,9 +22,9 @@
 
 
 /**	 #include  : Especifica que se desea incluir una libreria.
-	 <stdio.h> : Librería nativa que significa STandard Input Output,
-	             Entrada/Salida Estandar,  aqui  se  encuentran  los 
-	             comandos - > scanf y printf.
+         <stdio.h> : Librería nativa que significa STandard Input Output,
+                     Entrada/Salida Estandar,  aqui  se  encuentran  los 
+                     comandos - > scanf y printf.
  **/
 #include <stdio.h>
 
