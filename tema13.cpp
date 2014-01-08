@@ -81,10 +81,10 @@
  * 		Sus modos de acceso son los mismos que el de texto, pero
  *  terminando en el carácter  'b'  .
  * 
- * 			-rb : lectura binaria   (   read binary )
- * 			-rw : escritura binaria (  write binary )
- * 			-ab : agregar binaria	( append binary )
- * 			-rwb: lectura y escritura binaria
+ *                  -rb : lectura binaria   (   read binary )
+ *                  -rw : escritura binaria (  write binary )
+ *                  -ab : agregar binaria   ( append binary )
+ *                  -rwb: lectura y escritura binaria
  * 
  *  Tópicos:
  * 
