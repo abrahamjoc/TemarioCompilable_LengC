@@ -5,7 +5,7 @@
  *  
  *  Tema III: Ciclos Repetitivos en Lenguaje C
  * 
- *		En la programación es muy común hacer sentencias que casi siempre
+ *      En la programación es muy común hacer sentencias que casi siempre
  *   siguen un patrón que se repite, imaginense tener que hacer un patrón
  *   iteración a iteración, pero siempre modificando nosotros línea a línea
  *   las variables, sería una tarea muy tediosa y totalmente fastidiosa.
@@ -46,19 +46,19 @@
 	 *    Estructura:
 	 *    
 	 *    for ( 'sección a'; 'sección b'; 'sección c' ) {
-     * 		
-     * 			sentencias;
-     * 	  }
-     * 
-     *   sección a: se usa para inicializar y/ó ejecutar comandos antes 
-     * 				de iniciar el ciclo.
-     * 
-     *   sección b: se usa para establecer la condición de no parada del
-     * 				ciclo, es decir mientras sea verdad seguir repitiendo.
-     * 
-     *   sección c: se usa para contar y/ó ejecutar comandos después de
-	 * 				una iteración del ciclo.
-	 **/
+         *
+         *                     sentencias;
+         *    }
+         * 
+         *   sección a: se usa para inicializar y/ó ejecutar comandos antes 
+         * 		de iniciar el ciclo.
+         * 
+         *   sección b: se usa para establecer la condición de no parada del
+         * 		ciclo, es decir mientras sea verdad seguir repitiendo.
+         * 
+         *   sección c: se usa para contar y/ó ejecutar comandos después de
+         * 		una iteración del ciclo.
+         **/
 	 printf("Ciclo For:\n");
 	 
 	 //  i inicializa en 0;  repetir mientras i sea menor que 10;  incrementa i
@@ -76,9 +76,9 @@
 	 *    Estructura:
 	 *    
 	 *    while ( condición ) {
-     * 		
-     * 			sentencias;
-     * 	  }
+         * 		
+         *         sentencias;
+         *    }
 	 **/
 	 printf("Ciclo While:\n"); 
 	 	
@@ -106,9 +106,9 @@
 	 *    
 	 *    do {
 	 * 
-     * 			sentencias;
-     * 
-     * 	  }while ( condición );
+         *        sentencias;
+         * 
+         *    } while ( condición );
 	 **/
 	 printf("Ciclo Do..While:\n"); i = 0;	// inicializa en 0
 	 
