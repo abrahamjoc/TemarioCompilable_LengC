@@ -58,9 +58,9 @@ int main()
 	 *    
 	 * 	  tipo *nombre;
 	 * 	  
-	 *                      .---------.---------.
-	 * 			|  dirF*  |  dirA&  |
-	 * 			'---------'---------'
+	 *                           .---------.---------.
+	 *                           |  dirF*  |  dirA&  |
+	 *                           '---------'---------'
 	 *   
 	 *    dirección Física          :  *  : dirección que posee en M.RAM.
 	 *    dirección Apuntada	:  &  : dirección apuntada  en M.RAM.
