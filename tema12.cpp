@@ -23,7 +23,7 @@
  * 		- InOrden  : Izquierda,      Raíz, Derecha.
  * 		- PostOrden: Izquierda,   Derecha, Raíz.
  * 		
- *   				     /|R|\  
+ *                                   /|R|\  
  *                                |I|     |D|
  *                               /   \   /   \
  *                              |I| |D| |I|  |D|
