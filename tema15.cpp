@@ -275,8 +275,8 @@ void ServidorTCP(int puerto)
 	}
 	
 	if ( setsockopt(
-			sock,SOL_SOCKET,SO_REUSEADDR,&hayConexion,sizeof(int)
-		 ) == -1 )
+		sock,SOL_SOCKET,SO_REUSEADDR,&hayConexion,sizeof(int)
+	     ) == -1 )
 	{
 		printf("Error al Configurar el Socket con SetSocketSockOpt...\n");
 		
