@@ -46,17 +46,17 @@
 	 *    Estructura:
 	 *    
 	 *    for ( 'sección a'; 'sección b'; 'sección c' ) {
-     * 		
-     * 			sentencias;
-     * 	  }
-     * 
-     *   sección a: se usa para inicializar y/ó ejecutar comandos antes 
-     * 				de iniciar el ciclo.
-     * 
-     *   sección b: se usa para establecer la condición de no parada del
-     * 				ciclo, es decir mientras sea verdad seguir repitiendo.
-     * 
-     *   sección c: se usa para contar y/ó ejecutar comandos después de
+     	 * 		
+     	 * 		sentencias;
+     	 *    }
+     	 * 
+     	 *   sección a: se usa para inicializar y/ó ejecutar comandos antes 
+     	 * 				de iniciar el ciclo.
+     	 * 
+     	 *   sección b: se usa para establecer la condición de no parada del
+     	 * 				ciclo, es decir mientras sea verdad seguir repitiendo.
+     	 * 
+     	 *   sección c: se usa para contar y/ó ejecutar comandos después de
 	 * 				una iteración del ciclo.
 	 **/
 	 printf("Ciclo For:\n");
@@ -76,9 +76,9 @@
 	 *    Estructura:
 	 *    
 	 *    while ( condición ) {
-     * 		
-     * 			sentencias;
-     * 	  }
+     	 * 		
+     	 * 	  sentencias;
+     	 *    }
 	 **/
 	 printf("Ciclo While:\n"); 
 	 	
@@ -94,7 +94,7 @@
 	 
 	 
 	 printf("\n\n");
-	/**   Ciclo DO..WHIKE: este ciclo permite realizar iteraciones mientras
+	/**   Ciclo DO..WHILE: este ciclo permite realizar iteraciones mientras
 	 *	  una condición sea verdadera, por ende saldrá cuando la condición
 	 *    se vuelva falsa.
 	 * 
@@ -106,9 +106,9 @@
 	 *    
 	 *    do {
 	 * 
-     * 			sentencias;
-     * 
-     * 	  }while ( condición );
+     	 * 	   sentencias;
+     	 * 
+     	 *    } while ( condición );
 	 **/
 	 printf("Ciclo Do..While:\n"); i = 0;	// inicializa en 0
 	 
