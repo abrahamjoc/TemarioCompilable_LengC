@@ -38,9 +38,9 @@ int main()
 	 *   Los más usados son:
 	 *
 	 *      + : suma
-	 * 	- : resta
-	 * 	* : multiplicación
-	 * 	/ : división 
+	 *      - : resta
+	 *      * : multiplicación
+	 *      / : división 
 	 *      % : módulo o resto de división
 	**/
 	printf("Esto es la     suma       de %d + %d = %d\n", 5, 3, 5+3);
