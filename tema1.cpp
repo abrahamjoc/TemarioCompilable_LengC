@@ -14,10 +14,10 @@
  * kernel de linux y muchos de sus programas base estan escritos en él.
  * 
  *  Tópicos: 
- * 		- estructura básica en Leng.C
- * 		- tipo de datos
- * 		- asignación
- * 		- comandos scanf, printf
+ *  - estructura básica en Leng.C
+ *  - tipo de datos
+ *  - asignación
+ *  - comandos scanf, printf
  */
 
 
