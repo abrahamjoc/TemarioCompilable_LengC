@@ -5,7 +5,7 @@
  *  
  *  Tema VIII: Apuntadores en Lenguaje C
  * 	
- * 		Cuando se trata de programar deseando tener el control de flujo 
+ *      Cuando se trata de programar deseando tener el control de flujo 
  *  de los recursos del hardware de nuestro equipo, en Lenguaje C existe
  *  algo llamado apuntadores, los mismos son utilizados para la comunicación
  *  de mi programa con recursos físicos, el SO autogestiona un enlace
@@ -62,7 +62,7 @@ int main()
 	 * 			|  dirF*  |  dirA&  |
 	 * 			'---------'---------'
 	 *   
-	 * 	  dirección Física		:  *  : dirección que posee en M.RAM.
+	 *    dirección Física          :  *  : dirección que posee en M.RAM.
 	 *    dirección Apuntada	:  &  : dirección apuntada  en M.RAM.
 	 * 
 	 * 
@@ -88,10 +88,10 @@ int main()
 		// para este ejemplo trabajaremos con variables enteras, y hasta
 		// con 4 referencias de direcciones, cambiando la variable a.
 		
-	int a;		// entero simple
-	int *b;		// dirección a entero
-	int **c;	// dirección a direccción de entero
-	int ***d;	// doble dirección a dirección de entero
+	int a;      // entero simple
+	int *b;     // dirección a entero
+	int **c;    // dirección a direccción de entero
+	int ***d;   // doble dirección a dirección de entero
 	int ****e;  // tripe dirección a dirección de entero
 	
 	
