@@ -5,7 +5,7 @@
  *  
  *  Tema IV: Estructuras Condicionales en Lenguaje C
  * 	
- * 		El cerebro de una persona por su desarrollo biológico material,
+ *      El cerebro de una persona por su desarrollo biológico material,
  *  permite realizar miles de millones de operaciones matemáticas y lógicas,
  *  que dan como resultado la toma de decisiones según patrones identificados.
  * 
@@ -36,14 +36,14 @@
 	 *    Estructura:
 	 *    
 	 *    if ( condición ) {
-     * 		
-     * 			sentencias si condición
-     * 			verdadera;
-     * 	  }
-     * 	  else {
+         * 
+         *        sentencias si condición
+         * 	  verdadera;
+         *    }
+         *    else {
 	 *		
-	 * 			sentencias si condición	
-	 * 			falsa;
+	 *        sentencias si condición	
+	 *        falsa;
 	 *    }
 	 * 
 	 **/
@@ -80,21 +80,21 @@
 	 *    Estructura:
 	 *    
 	 *    switch ( variable ) {
-     * 		
-     * 			case opción1: sentencias;
-     * 						  break;
-     *
-     *          case opción2: sentencias;
-     * 					 	  break;
-     * 
-     * 			case opciónN: sentencias;
-     * 					 	  break;
-     * 
-     * 			default: sentencias;
-     * 
-     * 				// está opción tiene que ver cuando ninguna de las
-     *              // propuestas anteriores es verdadera
-     * 	  }
+         *
+         *        case opción1: sentencias;
+         *                      break;
+         *
+         *        case opción2: sentencias;
+         *                      break;
+         * 
+         *        case opciónN: sentencias;
+         *                      break;
+         * 
+         *        default: sentencias;
+         * 
+         *        // está opción tiene que ver cuando ninguna de las
+         *        // propuestas anteriores es verdadera
+         *    }
 	 * 
 	 **/
 	 
@@ -129,10 +129,10 @@
 	 *    Estructura:
 	 *    
 	 *    ( condición ) ? sentenciaVerdadera : sentenciaFalsa;
-     * 
-     * 				// está opción sólo sirve para el compilador g++
-     *              // es decir sólo funciona en C++. 
-     * 				// (archivos con extensión .cpp)
+         * 
+         *    // está opción sólo sirve para el compilador g++
+         *    // es decir sólo funciona en C++.
+         *    // (archivos con extensión .cpp)
 	 * 
 	 **/
 	 
