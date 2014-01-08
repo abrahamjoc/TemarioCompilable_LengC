@@ -5,7 +5,7 @@
  *  
  *  Tema X.1: Listas Enlazadas en Lenguaje C
  * 	
- * 		En Ciencias de la Computación una Lista Enlazada es una de las
+ *      En Ciencias de la Computación una Lista Enlazada es una de las
  *  estructuras de datos más fundamentales que existen, estas son usadas
  *  para implementar otras estructuras de datos que guardan a su vez datos
  *  arbitrarios y de referencias a otras estructuras.
@@ -38,11 +38,11 @@
 	 * 	  	
 	 * 			tipo variable1;
 	 * 			tipo varibale2;
-	 * 			...	  ...  ...
+	 * 			 ...  ...  ...
 	 * 			tipo variableN;
 	 * 
 	 * 			struct nodo *sig;
-	 *   } NODO;
+	 *        } NODO;
 	**/
 	
 typedef struct nodo {
