@@ -283,22 +283,22 @@ void ServidorTCP(int puerto)
 		exit(1);
 	}
 	
-	servidor_addr.sin_family = AF_INET;         
-    servidor_addr.sin_port = htons(puerto);
-    servidor_addr.sin_addr.s_addr = INADDR_ANY; 
-    bzero(&(servidor_addr.sin_zero),8); 
+        servidor_addr.sin_family = AF_INET;         
+        servidor_addr.sin_port = htons(puerto);
+        servidor_addr.sin_addr.s_addr = INADDR_ANY; 
+        bzero(&(servidor_addr.sin_zero),8); 
     
-     if ( bind(
-			sock,(struct sockaddr*)&servidor_addr,sizeof(struct sockaddr)
-		  ) == -1 )
-	{
-		printf("Servidor no es capaz de Enlazar...\n");
-        
-        exit(1);
-    }
+        if ( bind(
+                sock,(struct sockaddr*)&servidor_addr,sizeof(struct sockaddr)
+           ) == -1 )
+        {
+                printf("Servidor no es capaz de Enlazar...\n");
+                
+                exit(1);
+        }
     
-    if ( listen(sock, 5) == -1)
-    {
+        if ( listen(sock, 5) == -1)
+        {
 		printf("Servidor no es capaz de Escuchar...\n");
 		
 		exit(1);
@@ -308,7 +308,7 @@ void ServidorTCP(int puerto)
 	printf("Esperando por cliente en el puerto %d.\n", puerto);
 	
 	while ( true )
-    {
+        {
 		sin_tam = sizeof(struct sockaddr_in);
 		
 		conectado = accept(sock,(struct sockaddr*)&cliente_addr,
