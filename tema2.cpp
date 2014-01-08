@@ -38,9 +38,9 @@ int main()
 	 *   Los más usados son:
 	 *
 	 *    	+ : suma
-	 * 		- : resta
-	 * 		* : multiplicación
-	 * 		/ : división 
+	 * 	- : resta
+	 * 	* : multiplicación
+	 * 	/ : división 
 	 *     	% : módulo o resto de división
 	**/
 	printf("Esto es la     suma       de %d + %d = %d\n", 5, 3, 5+3);
@@ -97,9 +97,9 @@ int main()
 	 *   Los más usados son:
 	 *
 	 *     	 > : mayor que
-	 * 		 < : menor que
-	 * 		<= : menor o igual que
-	 * 		>= : mayor o igual que
+	 * 	 < : menor que
+	 * 	<= : menor o igual que
+	 * 	>= : mayor o igual que
 	**/
 	printf("5 mayor que 3  ( 5 > 3 ) : %d\n",  5>3);
 	printf("3 mayor que 5  ( 3 > 5 ) : %d\n",  3>5);
@@ -125,7 +125,7 @@ int main()
 	 *
 	 *   	! : negación
 	 *     	& : y (analogía de AND)
-	 * 		| : ó (analogía de OR )
+	 * 	| : ó (analogía de OR )
 	 *      ^ : ó exclusivo ( XOR )
 	 * 
 	 *  estos se diferencian de  && y ||  porque como dije antes se trabaja
@@ -162,16 +162,16 @@ int main()
 	 * 	 [ Aritméticos ]
 	 *     
 	 * 		+= : acumular suma  	( var1 = var1 + valor )
-	 *     	-= : acumular resta 	( var1 = var1 - valor )
+	 *     		-= : acumular resta 	( var1 = var1 - valor )
 	 * 	   	*= : acumular producto	( var1 = var1 * valor )
-	 *     	/= : acumular división	( var1 = var1 / valor )
+	 *     		/= : acumular división	( var1 = var1 / valor )
 	 * 	   	%= : acumular módulo	( var1 = var1 % valor )
 	 * 	
 	 * 	 [   Lógicos   ]
 	 *
 	 * 		&= : acumulación AND	( var1 = var1 & valor )
-	 * 		|= : acumulación OR		( var1 = var1 | valor )
-	 *     	^= : acumulación OR Exc.( var1 = var1 ^ valor )
+	 * 		|= : acumulación OR	( var1 = var1 | valor )
+	 *     		^= : acumulación OR Exc.( var1 = var1 ^ valor )
 	**/
 	int a=5, b=13; 
 	printf("                    a=%d   , b=%d\n", a, b);
