@@ -3,9 +3,9 @@
  *  Diciembre 2013
  *  Asignatura: Sistemas Operativos (LINUX)
  *  
- *  Tema XV.1: Sockets en Lenguaje C
+ *  Tema XV: Sockets en Lenguaje C
  * 
- * 		La palabra SOCKET significa ENCHUFE en ingles, viene de la
+ *      La palabra SOCKET significa ENCHUFE en ingles, viene de la
  *  capacidad de poder conectar dos(2) ó más Sistemas Operativos entre sí,
  *  usualmente en distintas computadoras y posiblemente con diferentes 
  *  arquitecturas.
@@ -20,7 +20,7 @@
  * 		1.	 __________________     ___________________
  * 			|   Equipo LOCAL   |   |   Equipo REMOTO   |
  * 			'------------------'   '-------------------'
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|    SERVIDOR  <---|---|----- CLIENTE      |
  * 			|__________________|   |___________________|
  * 
@@ -28,7 +28,7 @@
  * 		2.	 __________________     ___________________
  * 			|   Equipo LOCAL   |   |   Equipo REMOTO   |
  * 			'------------------'   '-------------------'
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|     CLIENTE -----|---|---> SERVIDOR      |
  * 			|__________________|   |___________________|
  * 
@@ -72,11 +72,11 @@
  * 			 __________________     ___________________
  * 			|     SERVIDOR     |   |      CLIENTE      |
  * 			'------------------'   '-------------------'
- * 			|	 accept(); <---|-1-|---- connect();    |
- *          |				   |   |				   |
- * 			|	IP servidor	   |   |     IP cliente    |
+ *                      |    accept(); <---|-1-|---- connect();    |
+ *                      |                  |   |                   |
+ *                      | IP servidor      |   |     IP cliente    |
  * 			|  PUERTO servidor |   |    PUERTO cliente |
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|  stream Serv. <--|-2-|--> stream Client. |
  * 			|__________________|   |___________________|
  * 
@@ -118,9 +118,9 @@
  * 		TCP	 __________________     ___________________
  * 			|     Equipo 1     |   |     Equipo 2      |
  * 			'------------------'   '-------------------'
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|   TCP Envia  ----|-1-|---> TCP Recibe    |
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|TCP Recibe Acuse<-|-2-|-- TCP Envia Acuse |
  * 			|__________________|   |___________________|
  * 
@@ -132,9 +132,9 @@
  * 		UDP	 __________________     ___________________
  * 			|     Equipo 1     |   |     Equipo 2      |
  * 			'------------------'   '-------------------'
- * 			|				   |   |				   |
+ *                      |                  |   |                   |
  * 			|   UDP Envia -----|-1-|---> UPD Recibe    |
- * 			|				   |   | 				   |
+ *                      |                  |   |                   |
  * 			|   UDP Escucha <--|-2-|---- UDP Envia	   |
  * 			|__________________|   |___________________|
  * 
