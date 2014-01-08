@@ -39,7 +39,7 @@
  * 
  *      fichero: es finalmente la información almacenada en disco, está
  *               dirección es referencia en el buffer, para que el SO que
- *               gestiona nuestro proceso tenga referencia hacia donde
+ *               gestiona nuestro proceso tenga una idea de hacia donde
  *               escribe o lee en los sectores del medio de almacenamiento.
  * 
  * 
@@ -62,8 +62,8 @@
  * 
  * 
  * 	Tipo Texto: estos ficheros están compuestos por texto plano, es decir
- *              cadenas de carácteres que son leibles enteramente por
- *              editores de texto convencionales.
+ *                  cadenas de carácteres que son leibles enteramente por
+ *                  editores de texto convencionales.
  * 
  * 		Sus modos de acceso son:
  * 
@@ -75,7 +75,7 @@
  * 
  *  Tipo Binario: estos ficheros estan compuestos por almacenar información
  *                en forma binaria, es decir se almacena las estructuras
- * 				  tal cúal se encuentran en memoria, no son legibles por
+ *                tal cúal se encuentran en memoria, no son legibles por
  *                editores de texto convencionales.
  * 
  * 		Sus modos de acceso son los mismos que el de texto, pero
@@ -89,20 +89,20 @@
  *  Tópicos:
  * 
  *  - escribir en fichero de texto
- *  	> fprintf
- * 		> fputs
- * 		> fputc
+ *       > fprintf
+ *       > fputs
+ *       > fputc
  * 
  *  - leer en fichero de texto
- * 		> fscanf
- * 		> fgets
- * 		> fgetc
+ *       > fscanf
+ *       > fgets
+ *       > fgetc
  * 
  *  - escribir en fichero binario
- * 		> fwrite
+ *       > fwrite
  *  
- * 	- leer en fichero binario
- * 		> fread
+ *  - leer en fichero binario
+ *       > fread
  */
  
 #include <stdio.h>
@@ -171,7 +171,7 @@ int main()
 	 *	 		- fputs ( char*, FILE* ) ;
 	 * 
 	 * 
-	 *      Fputc  : Significa poner carácter en archivo en ingles que
+	 * 		Fputc  : Significa poner carácter en archivo en ingles que
 	 *      viene de la traducción de File PUT Caracter, aca se escribe
 	 *      en el archivo un carácter explicitamente.
 	 * 
@@ -244,7 +244,7 @@ int main()
 	 *	 		- fgets ( char*, número máximo de carácteres, FILE* ) ;
 	 * 
 	 * 
-	 *      Fgetc  : Significa obtener carácter de archivo en ingles que
+	 * 		Fgetc  : Significa obtener carácter de archivo en ingles que
 	 *      viene de la traducción de File GET Caracter, aca se lee del
 	 *      archivo un carácter explicitamente y es retornado por la
 	 *      función.
