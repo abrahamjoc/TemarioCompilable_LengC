@@ -98,31 +98,31 @@ int main()
 		// asignaremos dato a la variable A usando las demás referencias
 	
 	
-	a = 1;						// imprimiendo a
+	a = 1;                                          // imprimiendo a
 	printf("variable a vale : %d\n", a);
 
 
 // referencia: *b = &a
 	b = &a;
-	*b = 2;						// imprimiendo *b
+	*b = 2;                                         // imprimiendo *b
 	printf("variable a vale : %d\n", a);
 
 
 // referencia: **c = &*b
 	c = &b;
-	**c = 3;					// imprimiendo **c
+	**c = 3;                                        // imprimiendo **c
 	printf("variable a vale : %d\n", a);
 
 
 // referencia: ***d = &**c
 	d = &c;
-	***d = 4;					// imprimiendo ***d
+	***d = 4;                                       // imprimiendo ***d
 	printf("variable a vale : %d\n", a);
 
 
 // referencia: ****e = &***d
 	e = &d;
-	****e = 5;					// imprimiendo ****e
+	****e = 5;                                      // imprimiendo ****e
 	printf("variable a vale : %d\n", a);
 
 
