@@ -276,7 +276,7 @@ void ServidorTCP(int puerto)
 	
 	if ( setsockopt(
 		sock,SOL_SOCKET,SO_REUSEADDR,&hayConexion,sizeof(int)
-	     ) == -1 )
+	   ) == -1 )
 	{
 		printf("Error al Configurar el Socket con SetSocketSockOpt...\n");
 		
@@ -323,10 +323,10 @@ void ServidorTCP(int puerto)
 			printf("Enviar (q or Q para cerrar) : ");
 			gets(datosEnviar);
 			 
-			if ( 
-					strcmp(datosEnviar,"q") == 0 ||
-					strcmp(datosEnviar,"Q") == 0
-				)
+			if (
+				strcmp(datosEnviar,"q") == 0 ||
+				strcmp(datosEnviar,"Q") == 0
+			   )
 			{
 				send(conectado, datosEnviar, strlen(datosEnviar), 0); 
                 
