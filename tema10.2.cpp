@@ -5,7 +5,7 @@
  *  
  *  Tema X.2: Listas Enlazadas Avanzadas en Lenguaje C
  * 	
- * 		Existen otras formas de manejar listas enlazadas, en este tema
+ *      Existen otras formas de manejar listas enlazadas, en este tema
  *  trabajaremos funciones más refinadas que pueden ayudar a entender y
  *  procesar mejor el manejo de las listas.
  * 
