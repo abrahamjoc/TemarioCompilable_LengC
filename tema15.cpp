@@ -479,23 +479,23 @@ void ServidorUDP(int puerto)
 	struct sockaddr_in servidor_addr;
 	
 	struct sockaddr_in cliente_addr;
-
-    if ( (sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1 )
-    {
+	
+	if ( (sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1 )
+	{
 		printf("Error al iniciar Socket...\n");
 		
 		exit(1);
 	}
 	
 	servidor_addr.sin_family = AF_INET;
-    servidor_addr.sin_port = htons(puerto);
-    servidor_addr.sin_addr.s_addr = INADDR_ANY;
-    bzero(&(servidor_addr.sin_zero),8);
-    
-    if ( bind(
-		   sock,(struct sockaddr*)&servidor_addr, sizeof(struct sockaddr)
-		 ) == -1 )
-    {
+	servidor_addr.sin_port = htons(puerto);
+	servidor_addr.sin_addr.s_addr = INADDR_ANY;
+	bzero(&(servidor_addr.sin_zero),8);
+	
+	if ( bind(
+		sock,(struct sockaddr*)&servidor_addr, sizeof(struct sockaddr)
+	   ) == -1 )
+	{
 		printf("Error al escuchar Socket...\n");
 		
 		exit(1);
@@ -504,15 +504,15 @@ void ServidorUDP(int puerto)
 	addr_tam = sizeof(struct sockaddr);
 		
 	printf("Esperando por recepcion de datos...\n");
-    
-    fflush(stdout);
+	
+	fflush(stdout);
 
 	while ( true )
 	{
 		bytesRecibidos = recvfrom(
-							sock, datosRecibir, 1024, 0,
-							(struct sockaddr *)&cliente_addr,
-							(socklen_t*)&addr_tam);
+			            sock, datosRecibir, 1024, 0,
+			            (struct sockaddr *)&cliente_addr,
+			            (socklen_t*)&addr_tam);
 	  
 
 		datosRecibir[bytesRecibidos] = '\0';
