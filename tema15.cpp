@@ -135,7 +135,7 @@
  *                      |                  |   |                   |
  *                      |   UDP Envia -----|-1-|---> UPD Recibe    |
  *                      |                  |   |                   |
- *                      |   UDP Escucha <--|-2-|---- UDP Envia	   |
+ *                      |   UDP Escucha <--|-2-|---- UDP Envia     |
  *                      |__________________|   |___________________|
  * 
  *                 Nota: Toda acción realizada en UDP, se hace sin saber si
@@ -557,9 +557,9 @@ void ClienteUDP(char ip[16], int puerto)
 		printf("Enviar (q or Q para cerrar) : ");
 		gets(datosEnviar);
 		
-		if ( 
-				(strcmp(datosEnviar , "q") == 0) || 
-				(strcmp(datosEnviar , "Q") == 0)
+		if (
+			(strcmp(datosEnviar , "q") == 0) ||
+			(strcmp(datosEnviar , "Q") == 0)
 		   )
 				
 				break;
@@ -567,7 +567,7 @@ void ClienteUDP(char ip[16], int puerto)
 		else
 		
 		   sendto(sock, datosEnviar, strlen(datosEnviar), 0,
-				 (struct sockaddr*)&servidor_addr, 
-				  sizeof(struct sockaddr));
+		            (struct sockaddr*)&servidor_addr, 
+			    sizeof(struct sockaddr));
 	   }
 }
