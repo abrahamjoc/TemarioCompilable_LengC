@@ -5,7 +5,7 @@
  *  
  *  Tema XI: Recursividad en Lenguaje C
  * 	
- * 		La recursividad es un fenómeno que se conoce en Ciencias de la
+ *      La recursividad es un fenómeno que se conoce en Ciencias de la
  *  Computación como un proceso que es capaz de ejecutar una serie de
  *  instrucciones de manera recurrente.
  * 
