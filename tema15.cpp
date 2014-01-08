@@ -69,16 +69,16 @@
  * 
  *  El esquema de conexión quedaría así:
  * 			
- * 			 __________________     ___________________
- * 			|     SERVIDOR     |   |      CLIENTE      |
- * 			'------------------'   '-------------------'
+ *                       __________________     ___________________
+ *                      |     SERVIDOR     |   |      CLIENTE      |
+ *                      '------------------'   '-------------------'
  *                      |    accept(); <---|-1-|---- connect();    |
  *                      |                  |   |                   |
  *                      | IP servidor      |   |     IP cliente    |
- * 			|  PUERTO servidor |   |    PUERTO cliente |
+ *                      |  PUERTO servidor |   |    PUERTO cliente |
  *                      |                  |   |                   |
- * 			|  stream Serv. <--|-2-|--> stream Client. |
- * 			|__________________|   |___________________|
+ *                      |  stream Serv. <--|-2-|--> stream Client. |
+ *                      |__________________|   |___________________|
  * 
  *  1. Se intenta una conexión de parte del cliente con la función
  *     CONNECT y el servidor acepta la conexión con la función ACCEPT.
