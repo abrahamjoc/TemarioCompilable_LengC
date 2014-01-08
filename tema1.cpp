@@ -40,7 +40,7 @@ int main()
 	/**  Los tipos de datos definidos más usados en lenguaje C son: **/
 	int   entero;	   // -32767 - 32768
 	char  caracter;    // abcdefg@#$
-	float flotante;	   // 1.18e-38 - 1.18e-38, con coma flotante
+	float flotante;	   // 1.18e-38 - 1.18e-38, con punto flotante
 	
 	char  cadena[255] = "hola mundo\n"; 
 		// Cadena, este es un arreglo de carácteres, de una dimensión
