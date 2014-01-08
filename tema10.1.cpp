@@ -12,7 +12,7 @@
  *  
  *  Dicho de otro modo, son una secuencia de NODOS enlazados entre sí,
  *  de manera dinámica que permiten guardar información especifica y
- *  almacenar direcciones de ¿cuál? son los siguientes NODO's de un
+ *  almacenar direcciones de ¿cuáles? son los siguientes NODO's de un
  *  determinado tipo.
  * 
  *  Tópicos:
