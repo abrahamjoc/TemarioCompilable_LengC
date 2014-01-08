@@ -5,7 +5,7 @@
  *  
  *  Tema XIII: Manejo de Archivos de Texto y Binarios en Lenguaje C
  * 	
- * 		En todos los anteriores temas nos dedicamos a aprender a dominar
+ *      En todos los anteriores temas nos dedicamos a aprender a dominar
  *  la declaración y procesamiento de datos en tiempo de ejecución de
  *  nuestro programa.
  *  
@@ -24,13 +24,13 @@
  * 
  *  Una descripción gráfica podría ser así:
  * 
- * 	... Memoria RAM .............      ... Disp. Almacenamiento .....
+ *      ... Memoria RAM ..........         ... Disp. Almacenamiento ..
  *  |   ________      ________   |     |     ___________________     |
  *  |  | stream |--->| buffer |--|-----|--->| Fichero ó Archivo |    |
  *  |   --------      --------   |     |     -------------------     |
  *  '............................'     '.............................'
  * 
- * 		 stream: es el flujo en nuestro programa que gestiona la lectura
+ *       stream: es el flujo en nuestro programa que gestiona la lectura
  *               o escritura sobre el archivo.
  * 
  *       buffer: es la dirección asignada que apunta al sector donde se
@@ -67,10 +67,10 @@
  * 
  * 		Sus modos de acceso son:
  * 
- * 		    - r : lectura   (  read  )
- *     		- w : escritura (  write )
- *     		- a : agregar	( append )
- * 			- rw: lectura y escritura
+ *                  - r : lectura   (  read  )
+ *                  - w : escritura (  write )
+ *                  - a : agregar   ( append )
+ *                  - rw: lectura y escritura
  * 
  * 
  *  Tipo Binario: estos ficheros estan compuestos por almacenar información
@@ -168,14 +168,14 @@ int main()
 	 *      de la traducción de File PUT String, aca se escribe en el
 	 *      archivo una cadena explicitamente.
 	 * 
-	 *	 		- fputs   ( char*, FILE* ) ;
+	 *	 		- fputs ( char*, FILE* ) ;
 	 * 
 	 * 
 	 *      Fputc  : Significa poner carácter en archivo en ingles que
 	 *      viene de la traducción de File PUT Caracter, aca se escribe
 	 *      en el archivo un carácter explicitamente.
 	 * 
-	 *      	- fputc	  ( (int)char , FILE* ) ;
+	 *                      - fputc ( (int)char , FILE* ) ;
 	 */
 
 		// escribiendo una cadena y un entero bajo formato
@@ -241,7 +241,7 @@ int main()
 	 *      archivo una cadena explicitamente y es retornado a la cadena
 	 *      que sea pasada por parámetro.
 	 * 
-	 *	 		- fgets   ( char*, número máximo de carácteres, FILE* ) ;
+	 *	 		- fgets ( char*, número máximo de carácteres, FILE* ) ;
 	 * 
 	 * 
 	 *      Fgetc  : Significa obtener carácter de archivo en ingles que
@@ -249,7 +249,7 @@ int main()
 	 *      archivo un carácter explicitamente y es retornado por la
 	 *      función.
 	 * 
-	 *      	- (int)char fgetc ( FILE* ) ;
+	 *                      - (int)char fgetc ( FILE* ) ;
 	 */
 	
 		// declarando cadena para lectura
@@ -290,8 +290,8 @@ int main()
 			// NOTA: observese que a pesar de que colocamos una cantidad
 			//       exagerada, el fgets leerá hasta EOL ó EOF
 			//		
-			// 	EOL: End Of Line ( Fin de Linea   representado por '\n' )
-			//  EOF: End Of File ( Fin de Archivo representado por '\0' )
+			//     EOL: End Of Line ( Fin de Linea   representado por '\n' )
+			//     EOF: End Of File ( Fin de Archivo representado por '\0' )
 	
 		// muestro lo leído
 	printf("%s\n", cadena);
