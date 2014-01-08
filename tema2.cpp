@@ -204,8 +204,8 @@ int main()
 	 * 
 	 *   Estos son:
 	 *
-	 * 	 	++: incrementa
-	 * 		--: decrementa
+	 *              ++: incrementa
+	 *              --: decrementa
 	**/
 	int i=9, j=4;
 	printf("                     i=%d  , j=%d\n", i, j);
