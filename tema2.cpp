@@ -5,7 +5,7 @@
  *  
  *  Tema II: Operadores en Lenguaje C
  * 
- *		Un procesador básicamente el trabajo que realiza  es comparar y
+ *      Un procesador básicamente el trabajo que realiza  es comparar y
  *   hacer cálculos matemáticos de datos. Lenguaje C da instrucciones
  *   mediante operadores  que permiten interactuar con las variables
  *   de nuestro programa.
