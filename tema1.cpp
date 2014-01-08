@@ -5,11 +5,11 @@
  *  
  *  Tema I: Introducción al Lenguaje C
  * 
- * 		Lenguaje C es lenguaje de programación de medio nivel, es decir
+ * 	Lenguaje C es lenguaje de programación de medio nivel, es decir
  * trabaja  a nivel de  Sistema Operativo  y  Hardware, fue  creado por 
  * Dennis Ritchie en 1972 como evolución del Lenguaje B de Ken Thompson.
  * 
- * 		Es sumamente versatil, y es el lenguaje más ampliamente utilizado
+ * 	Es sumamente versatil, y es el lenguaje más ampliamente utilizado
  * en el mundo para el desarrollo de proyectos, fue el padre del primer
  * kernel de linux y muchos de sus programas base estan escritos en él.
  * 
@@ -40,10 +40,10 @@ int main()
 	/**  Los tipos de datos definidos más usados en lenguaje C son: **/
 	int   entero;	   // -32767 - 32768
 	char  caracter;    // abcdefg@#$
-	float flotante;	   // -infinito - +infinito, con coma flotante
+	float flotante;	   // 1.18e-38 - 1.18e-38, con coma flotante
 	
 	char  cadena[255] = "hola mundo\n"; 
-		// Cadena, este es un arreglo de una dimensión de caracteres
+		// Cadena, este es un arreglo de carácteres, de una dimensión
 	
 	
 	/**  Asignacion en C, para asignar en C se utiliza el operador '='
@@ -87,7 +87,7 @@ int main()
 	 * 
 	 *   Los más usados son:
 	 *   %i : integer  (entero)
-	 *   %d : double   (doble)
+	 *   %d : integer  (entero)
 	 *   %c : caracter (caracter)
 	 *   %f : float    (flotante)
 	 *   %s : cadena de caracteres
