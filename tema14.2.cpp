@@ -5,7 +5,7 @@
  *
  *  Tema XIV.2: Hilos o Procesos Ligeros en Lenguaje C
  *
- * 		Muchas veces sucede que deseamos tener un programa que pueda
+ *      Muchas veces sucede que deseamos tener un programa que pueda
  *  hacer varias cosas al mismo tiempo, es decir que ciertos trozos de
  *  código puedan ser manejados paralelamente, para ello existe un
  *  fenómeno que en Ciencias de la Computación se conoce como concurrencia.
@@ -16,13 +16,13 @@
  *  algoritmo de planificación del Sistema Operativo, para lograr esto se
  *  pueden hacer dos cosas:
  *
- * 		1. Crear un nuevo proceso a través de fork() que bifurca un
+ *      1. Crear un nuevo proceso a través de fork() que bifurca un
  *         proceso haciendo una réplica igual que el proceso padre que lo
  *         crea, pero sin poder compartir recursos en memoria RAM para
  *         comunicarse entre sí y dependiendo de quien sea cada cosa
  *         realizar ciertas tareas especificas asignadas por su PID.
  *
- * 		2. Crear un proceso de un proceso padre, siendo esté una pequeña
+ *      2. Crear un proceso de un proceso padre, siendo esté una pequeña
  *  	   parte del mismo, en donde los mismos pueden compartir recursos
  *         en memoria RAM a través de las variables globales que se
  *         declaren en nuestro programa y su tarea asignada sea una función
