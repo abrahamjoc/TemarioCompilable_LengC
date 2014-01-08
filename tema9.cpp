@@ -5,7 +5,7 @@
  *  
  *  Tema IX: Memoria Dinámica en Lenguaje C
  * 	
- * 		Hasta ahora nos hemos dedicado a programar declarando variables
+ *      Hasta ahora nos hemos dedicado a programar declarando variables
  *  de tamaño fijo haciendo de nuestro programa una ejecución con consumo
  *  de recursos finitos, imaginemos por un momento que para el manejo de
  *  los datos que queremos implementar el tamaño será definido en tiempo
@@ -39,9 +39,9 @@
 	 * 	  	
 	 * 			tipo variable1;
 	 * 			tipo varibale2;
-	 * 			...	  ...  ...
+	 * 			 ...  ...  ...
 	 * 			tipo variableN;
-	 *   };
+	 *        };
 	 * 
 	 * 
 	 *   Su definición pasa a ser un tipo de dato declarable en cualquier
@@ -127,7 +127,7 @@ int main()
 	 * 	  variable = (TipoVariable*) malloc ( sizeof(TipoVariable) );
 	 * 
 	 * 
-	 * 		Nota: sizeof, devuelve el tamaño exacto que posee una estructura
+	 *      Nota: sizeof, devuelve el tamaño exacto que posee una estructura
 	 *            definida de datos, siendo primitiva o compuesta.
 	**/
 	
