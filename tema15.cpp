@@ -398,16 +398,16 @@ void ClienteTCP(char ip[16], int puerto)
 		exit(1);
 	}
 	
-    servidor_addr.sin_family = AF_INET;
-    servidor_addr.sin_port = htons(puerto);
-    servidor_addr.sin_addr = *((struct in_addr *)host->h_addr);
-    bzero(&(servidor_addr.sin_zero),8);
-    
-    if ( connect(
-			sock,(struct sockaddr*)&servidor_addr,sizeof(struct sockaddr)
-		) == -1 ) 
-    {
-		printf("Error al realizar Connect...\n");
+	servidor_addr.sin_family = AF_INET;
+	servidor_addr.sin_port = htons(puerto);
+	servidor_addr.sin_addr = *((struct in_addr *)host->h_addr);
+	bzero(&(servidor_addr.sin_zero),8);
+	
+	if ( connect(
+		sock,(struct sockaddr*)&servidor_addr,sizeof(struct sockaddr)
+           ) == -1 ) 
+        {
+        	printf("Error al realizar Connect...\n");
 		
 		exit(1);
 	}
