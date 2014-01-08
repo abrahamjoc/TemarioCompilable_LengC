@@ -5,7 +5,7 @@
  *  
  *  Tema XII: Árboles Binarios en Lenguaje C
  * 	
- * 		Dominando el tema manejo de estructuras dinámicas y recursividad
+ *      Dominando el tema manejo de estructuras dinámicas y recursividad
  *  podemos comenzar a hablar de estructuras que posean mayor grado de
  *  eficiencia mezclando ambas técnicas, una de ellas es conocida como
  *  árbol binario, el mismo consiste en una estructura que tiene un NODO
@@ -24,10 +24,10 @@
  * 		- PostOrden: Izquierda,   Derecha, Raíz.
  * 		
  *   				     /|R|\  
- * 	  				  |I|     |D|
- * 					 /   \   /   \
- *   				|I| |D| |I|  |D|
- * 				    N N N N N N  N N
+ *                                |I|     |D|
+ *                               /   \   /   \
+ *                              |I| |D| |I|  |D|
+ *                              N N N N N N  N N
  * 
  *  Tópicos:
  *  - insertar en árbol binario
