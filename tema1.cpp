@@ -21,7 +21,7 @@
  */
 
 
-/**	 #include  : Especifica que se desea incluir una libreria.
+/**      #include  : Especifica que se desea incluir una libreria.
   *      <stdio.h> : Librería nativa que significa STandard Input Output,
   *                  Entrada/Salida Estandar,  aqui  se  encuentran  los 
   *                  comandos - > scanf y printf.
