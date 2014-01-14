@@ -38,9 +38,9 @@
 int main()
 {
 	/**  Los tipos de datos definidos más usados en lenguaje C son: **/
-	int   entero;	   // -32767 - 32768
+	int   entero;      // -32767 - 32768
 	char  caracter;    // abcdefg@#$
-	float flotante;	   // 1.18e-38 - 1.18e-38, con punto flotante
+	float flotante;    // 1.18e-38 - 1.18e-38, con punto flotante
 	
 	char  cadena[255] = "hola mundo\n"; 
 		// Cadena, este es un arreglo de carácteres, de una dimensión
@@ -73,7 +73,7 @@ int main()
 		// intención de diferenciarse de un caracter, indicando que este
 		// es un arreglo de caracteres.
 		// existen caracteres especiales, los cuales los más usados son:
-		// '\n': fin de linea     (siguienet linea)
+		// '\n': fin de linea     (siguiente linea)
 		// '\t': tabulador        (imprime un espacio de avanzada TAB)
 		// '\r': retorno de carro (emula un retorno de carro ENTER)
 	/** char cadena[255] = "hola mundo\n"; **/
