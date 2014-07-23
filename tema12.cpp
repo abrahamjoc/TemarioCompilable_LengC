@@ -1,4 +1,4 @@
-/*
+/* 
  *  Preparador: José Abraham (abrahamjoc@gmail.com)
  *  Diciembre 2013
  *  Asignatura: Programación 2
