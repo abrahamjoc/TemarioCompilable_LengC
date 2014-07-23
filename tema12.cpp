@@ -107,7 +107,7 @@ void verArbol(ARBOL *arbol, int nivel=0)
 
 /// Prototipos de Función
 void insertarElemArbol(ARBOL **arbol, int elem);
-ARBOL* eliminarElemArbol(ARBOL **arbol, int elem);
+void eliminarElemArbol(ARBOL **arbol, int elem);
 int buscarElemArbol(ARBOL *arbol, int elem);
 void preOrdenArbol(ARBOL *arbol);
 void inOrdenArbol(ARBOL *arbol);
@@ -235,7 +235,7 @@ void insertarElemArbol(ARBOL **arbol, int elem)
 
 
 /// Elimina una hoja del árbol, si se trata de la RAÍZ le asigna el valor 0
-ARBOL* eliminarElemArbol(ARBOL **arbol, int elem)
+void eliminarElemArbol(ARBOL **arbol, int elem)
 {	
 		// declaración de hoja para modificar lista
 	ARBOL *hoja = *arbol;
@@ -322,9 +322,6 @@ ARBOL* eliminarElemArbol(ARBOL **arbol, int elem)
 				// se debe reestructurar el nodo izquierdo
 			hoja->izq = eliminarElemArbol(&hoja->izq,elem);
 	}
-
-		// retornamos la hoja
-	return hoja;
 }
 
 
