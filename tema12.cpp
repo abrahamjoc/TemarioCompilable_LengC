@@ -235,7 +235,7 @@ void insertarElemArbol(ARBOL **arbol, int elem)
 
 
 /// Elimina una hoja del árbol, si se trata de la RAÍZ le asigna el valor 0
-void eliminarElemArbol(ARBOL **arbol, int elem)
+ARBOL* eliminarElemArbol(ARBOL **arbol, int elem)
 {	
 		// declaración de hoja para modificar lista
 	ARBOL *hoja = *arbol;
